@@ -1,1 +1,1 @@
-Website I builtas part of my Inetrnship project at SuvenConsultants
+E-Comm site using Python-Django, HMTL, CSS
