@@ -1,1 +1,3 @@
-E-Comm site using Python-Django, HMTL, CSS
+E-Comm site using Python-Django HMTL and CSS
+
+has the db lite, it has just some test data, and dummy account, can use or delete as u wish...
