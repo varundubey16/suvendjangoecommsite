@@ -2,17 +2,18 @@
 {% load static %}
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Varunz Django Store | SUVEN</title>
-  <style media="screen">
-    .footer{
-      position: fixed;
-    }
-  </style>
-</head>
 
+  
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Varunz Django Store | SUVENclientdemo</title>
+<style media="screen">
+  .footer{
+    position: fixed;
+  }
+</style>
+</head>
 <body style="background-color:#f7f7f7;">
   {%if request.user.is_authenticated%}
     {% include "ecom/customer_navbar.html" %}
@@ -25,4 +26,6 @@
   {% include "ecom/footer.html" %}
 </body>
 
+
+  
 </html>
